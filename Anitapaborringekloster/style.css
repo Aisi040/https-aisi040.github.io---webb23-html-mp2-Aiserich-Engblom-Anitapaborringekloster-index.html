@@ -67,10 +67,10 @@ body {
   }
   .nav-container {
     
-    display:flex
+    display:flex;
     bottom: 0;
-  left: 0;
-  width: 100%;
+    left: 0;
+    width: 100%;
  
     justify-content: space-between;
     width: 100%;
