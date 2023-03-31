@@ -1,3 +1,17 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --header-bg-color: rgb(255, 255, 255);
+  --header-text-color: rgb(121, 11, 11);
+  --main-bg-color: rgb(63, 7, 7);
+  --main-text-color: white;
+  --main-padding: 20px;
+  --nav-link-color: #000;
+  --nav-link-hover-color: #fff;
+  --nav-link-hover-bg-color: #6b0606;
+  --footer-bg-color: black;
+  --footer-text-color: white;
+  }
 header {
     
  
