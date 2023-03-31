@@ -105,3 +105,30 @@ body {
         color: red;
         text-decoration:double;
       }
+      .box {
+        background-color: rgb(255, 255, 255);
+        color: rgb(111, 162, 48);
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        transition: width 0.5s ease;
+        position: relative;
+      }
+      
+      .box:hover {
+        width: 100%;
+      }
+      
+      .box p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      
+      .box:hover p {
+        opacity: 1;
+      }
